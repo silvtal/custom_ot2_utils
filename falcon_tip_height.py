@@ -1,4 +1,4 @@
-def falcon_tip_height(vol, min_height = 0.5, r = 15/2, depth = 20):
+def falcon_tip_height(vol, min_height = 0.5, r = 14.5/2, depth = 20):
     """
     Tracking volume function designed for Fisherbrand 
     15 mL Falcon tubes.
