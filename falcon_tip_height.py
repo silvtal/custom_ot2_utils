@@ -1,7 +1,8 @@
 def falcon_tip_height(vol, min_height = 0.5, r = 14.5/2, depth = 20):
     """
     Tracking volume function designed for Fisherbrand 
-    15 mL Falcon tubes.
+    15 mL Falcon tubes. Given a volume in mL, it returns
+    the corresponding height (to be specified as well.bottom()[height])
     
     vol is in mL
     r is the radius in mm
