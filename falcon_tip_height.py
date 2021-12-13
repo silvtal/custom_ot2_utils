@@ -21,7 +21,7 @@ def falcon_tip_height(vol, min_height = 0.5, r = 14.5/2, depth = 20):
         # now we do V = h * pi * r**2    (plus the base height)
         height = base + vol2/(3.14159*((r)**2)) - depth
 
-        if ((height >= min_height) or (vol < 2)):
+        if (height >= min_height):
             return height
         else:
             return min_height
